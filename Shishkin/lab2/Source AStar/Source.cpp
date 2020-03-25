@@ -30,6 +30,9 @@ bool cmpEdge(Edge i, Edge j);			   //компаратор для сортировки ребер по эвристич
 void aStar(char start, char finish, vector <Graph> gr, string nodeNames); //метод A*
 
 int main() {
+	//{ 'a', 'b', 'c', 'a', 'd' };
+	//{ 'b', 'c', 'd', 'd', 'e' };
+	//{ 3, 1, 1, 5, 1 };
 	setlocale(LC_ALL, "RUS");
 	char start;       //начальная вершина
 	char finish;      //конечная вершина
